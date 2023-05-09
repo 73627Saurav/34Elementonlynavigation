@@ -4,4 +4,6 @@ const changeBgRed = () => {
 
 let b = document.body
 console.log("First child of b is: ", b.firstChild)
-console.log("First Element child of b is: ", b.firstElementChild)
+console.log("----------end----------") // we will get 'comment node'
+console.log("First Element child of b is: ", b.firstElementChild) // we will get 'nav'
+console.log("----------end----------")

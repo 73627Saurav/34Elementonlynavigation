@@ -9,11 +9,25 @@ html, body {
 ul{
   display: flex;
   background: grey;
-  margin: 0;
-  padding: 15px 0;
+  margin: 0px; /*ul-bar space from top*/
+  padding: 10px 0;
   color: white;
 }
+/* 
+The 'padding' property is used to set the space between an element's content and its border. It is used to add extra space inside the border of an element
+
+padding: 10px 20px 30px 40px; -> Sets 10 pixels of padding on top, 20 pixels of padding on right, 30 pixels of padding on bottom, and 40 pixels of padding on left  */
+
 ul li{
-  list-style: none;
-  margin: 0 23px;
+  list-style: none; /* In ul 'dots' before texts will be removed */
+  margin: 0px 25px 0px 25px;
 }
+/* 
+The 'margin' property sets the margin of an element. In this case, it's setting the margin of the list items (<li>) within the unordered list (<ul>).
+
+The four values in the margin property represent the top, right, bottom, and left margins respectively.
+
+0px margin at the top
+25px margin at the right
+50px margin at the bottom
+100px margin at the left */
